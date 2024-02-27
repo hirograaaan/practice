@@ -86,7 +86,7 @@ def blackjack():
     elif result == "プレイヤーの負け！":
       player_money -= bet
   
-    play_again = input("もう一度プレイしますか？ 続ける場合は'y'を入力してください: ").lower()
+    play_again = input("もう一度プレイしますか？ 続ける場合は'y'を入力してください: ")
     if play_again != 'y':
       break
 
